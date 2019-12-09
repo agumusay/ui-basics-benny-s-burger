@@ -1,1 +1,53 @@
 @import "imports";
+@import url("https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister&display=swap");
+
+body {
+  width: 100vw;
+}
+.head-img {
+  height: 40px;
+}
+
+.im-con {
+  border: 1px solid black;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+}
+.card-img-top {
+  height: 4rem;
+}
+.hero1 {
+  background: url(/images/lidye-1Shk_PkNkNw-unsplash.jpg);
+  background-size: cover;
+  background-position: bottom;
+  height: 40vh;
+}
+
+.card {
+  border: none;
+}
+
+.slide-x {
+  background-color: purple;
+}
+
+.cn-cards {
+  overflow-x: scroll;
+}
+h4 {
+  font-family: "Love Ya Like A Sister", cursive;
+}
+
+h2 {
+  font-family: "Love Ya Like A Sister", cursive;
+}
+
+h3 {
+  font-family: "Love Ya Like A Sister", cursive;
+}
+h1 {
+  font-family: "Love Ya Like A Sister", cursive;
+}
