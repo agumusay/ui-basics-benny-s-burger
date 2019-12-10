@@ -14,15 +14,15 @@
     <link rel=stylesheet href=/styles/normalize.css type=text/css> <link
     rel=stylesheet href=/styles/index.css type=text/css>
   </head>
-  <body>
+  <body class="container">
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-        <a class="navbar-brand text-primary" href="#"
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4">
+        <a class="navbar-brand text-primary font-weight-bold" href="#"
           ><img class="head-img" src="/images/hamburger.svg" alt="" />
           Benny's</a
         >
         <button
-          class="navbar-toggler"
+          class="navbar-toggler custom-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarSupportedContent"
@@ -30,33 +30,35 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon custom-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link text-primary" href="#"
+              <a class="nav-link text-primary font-weight-bold" href="#"
                 >The Idea <span class="sr-only">(current)</span></a
               >
             </li>
             <li class="nav-item active">
-              <a class="nav-link text-primary" href="#"
+              <a class="nav-link text-primary font-weight-bold" href="#"
                 >News <span class="sr-only">(current)</span></a
               >
             </li>
             <li class="nav-item active">
-              <a class="nav-link text-primary" href="#"
+              <a class="nav-link text-primary font-weight-bold" href="#"
                 >Contact <span class="sr-only">(current)</span></a
               >
             </li>
           </ul>
         </div>
       </nav>
-      <div class="hero1 card pt-5 pl-5">
+      <div class="hero1 jumbotron">
         <div class="card-body">
-          <h1 class="card-title display-1 text-white">Benny's Burger</h1>
-          <p class="card-text text-white">
+          <h1 class="display-1 text-white col-6 col-lg-12 col-xl-12">
+            Benny's Burger
+          </h1>
+          <p class="lead text-white col-9">
             Hands Down, best burger in town
           </p>
           <a href="#" class="btn btn-primary">See the menu</a>
@@ -65,8 +67,8 @@
     </header>
     <main class="text-center align-items-center">
       <h1 class="p-5 text-secondary display-4">The Idea</h1>
-      <section class="ideas row justify-content-center">
-        <div class="card col-3 mr-4" style="width: 18rem;">
+      <section class="ideas row justify-content-center mb-5">
+        <div class="card col-lg-4 col-md-6" style="width: 18rem;">
           <div class="im-con m-auto bg-light">
             <img src="/images/care.svg" class="card-img-top" alt="..." />
           </div>
@@ -80,7 +82,7 @@
             </p>
           </div>
         </div>
-        <div class="card col-3 mr-4" style="width: 18rem;">
+        <div class="card col-lg-4 col-md-6" style="width: 18rem;">
           <div class="im-con m-auto bg-light">
             <img src="/images/plant.svg" class="card-img-top" alt="..." />
           </div>
@@ -94,7 +96,7 @@
             </p>
           </div>
         </div>
-        <div class="card col-3 mx-4" style="width: 18rem;">
+        <div class="card col-lg-4 col-md-6" style="width: 18rem;">
           <div class="im-con m-auto bg-light">
             <img src="/images/heart.svg" class="card-img-top" alt="..." />
           </div>
@@ -112,7 +114,7 @@
       <section class="slide-x pt-5">
         <h1 class="m-auto text-white display-4">What's new at Benny's</h1>
 
-        <div class="d-flex align-items-center cn-cards pb-5">
+        <div class="d-flex align-items-center cn-cards pb-5 ml-sm-5">
           <div class="card flex-shrink-0 m-3" style="width: 18rem;">
             <img
               src="/images/dan-gold-E6HjQaB7UEA-unsplash.jpg"

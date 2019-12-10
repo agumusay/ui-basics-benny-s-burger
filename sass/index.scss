@@ -3,6 +3,8 @@
 
 body {
   width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
 }
 .head-img {
   height: 40px;
@@ -23,7 +25,6 @@ body {
   background: url(/images/lidye-1Shk_PkNkNw-unsplash.jpg);
   background-size: cover;
   background-position: bottom;
-  height: 40vh;
 }
 
 .card {
@@ -31,23 +32,24 @@ body {
 }
 
 .slide-x {
-  background-color: purple;
+  background-color: #6f42c1;
 }
 
 .cn-cards {
   overflow-x: scroll;
 }
-h4 {
-  font-family: "Love Ya Like A Sister", cursive;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Love Ya Like A Sister";
 }
 
-h2 {
-  font-family: "Love Ya Like A Sister", cursive;
+.custom-toggler {
+  border-color: #6f42c1 !important;
 }
 
-h3 {
-  font-family: "Love Ya Like A Sister", cursive;
-}
-h1 {
-  font-family: "Love Ya Like A Sister", cursive;
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(111, 66, 193, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
